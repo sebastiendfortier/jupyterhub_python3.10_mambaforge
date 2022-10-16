@@ -2,7 +2,7 @@
 
 ## Build
 Multi-sage build
-- condaforge/mambaforge based   
+- condaforge/mambaforge and ubuntu 18.04 based 
 - python 3.10
 - configurable proxy from npm
 - simple native auth
