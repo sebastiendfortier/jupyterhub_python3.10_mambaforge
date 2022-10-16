@@ -1,0 +1,9 @@
+
+version: "3"
+
+services:
+  jupyterhub_python3.10_mambaforge:
+    container_name: jupyterhub_python3.10_mambaforge
+    build: .
+    ports: 
+      - "8001:8000"

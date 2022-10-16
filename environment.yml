@@ -1,0 +1,9 @@
+name: jupyterhub
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - jupyterhub
+  - jupyterlab
+  - pip:
+    - jupyterhub-nativeauthenticator
